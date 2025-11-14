@@ -1,7 +1,5 @@
-numpy==1.26.4
 pandas==2.2.2
-seaborn==0.13.2
-matplotlib==3.9.2
-sklearn==1.5.1
-torch==2.5.1
-transformers==4.46.2
+numpy==1.26.4
+environs==14.3.0
+aiogram==3.22.0
+sentence_transformers==5.1.1
