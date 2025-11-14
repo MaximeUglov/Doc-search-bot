@@ -10,12 +10,6 @@
 5. Создать виртуальное окружение и установить библиотеки, указанные в requirements.txt   
 6. Запустить файл main.py и открыть чат с ботом.
 
-### Решение
-
-1. Обработал признаки и сформировал датасеты для обучения, валидации и теста модели. Признак с текстом обработал отдельно с помощью предобученной модели bert.   
-2. Написал класс модели с LSTM и функции для нее.     
-3. Обучил модель, которая по качеству на тесте могла бы занять 15 место в таблице лидеров.   
-
 ### Описание файлов
 
 >__main.ipynb__ - описание признаков, их обработка, создание и обучение модели.   
@@ -34,6 +28,6 @@ __sample_submission.csv__ - форма ответа для соревнован�
 <div id="badges">
   <img src="https://img.shields.io/badge/pandas-black?style=for-the-badge&logo=pandas"/>
   <img src="https://img.shields.io/badge/numpy-black?style=for-the-badge&logo=numpy"/>
-  <img src="https://img.shields.io/badge/sklearn-black?style=for-the-badge&logo=scikit-learn"/>
-  <img src="https://img.shields.io/badge/pytorch-black?style=for-the-badge&logo=pytorch"/>
+  <img src="https://img.shields.io/badge/aiogram-black?style=for-the-badge&logo=aiogram"/>
+  <img src="https://img.shields.io/badge/sentence_transformers-black?style=for-the-badge&logo=sentence_transformers"/>
 </div>
